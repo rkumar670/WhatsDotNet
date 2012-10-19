@@ -1,0 +1,12 @@
+﻿<Window x:Class="WhatsDotNetView.Conversation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Conversation" Height="340" Width="482">
+    <Grid>
+        <TextBox Height="41" HorizontalAlignment="Left" Margin="12,248,0,0" Name="txtTextToSend" VerticalAlignment="Top" Width="436" KeyUp="txtTextToSend_KeyUp" TextWrapping="Wrap" />
+        <Label Height="203" HorizontalAlignment="Left" Margin="12,39,0,0" VerticalAlignment="Top" Width="436" >
+            <TextBlock Name="txtConversation" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <Label Content="Label" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="lblHint" VerticalAlignment="Top" Width="355" />
+    </Grid>
+</Window>
